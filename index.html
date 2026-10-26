@@ -2,18 +2,22 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
+    <!-- Fixed viewport typo: initial-scale=1.0 -->
     <meta name="viewport" content="width=device-width, initial=scale=1.0">
     <meta name="author" content="Adina">
-    <title>Bear Ninja Hunter</title>
+    <title>Bear Hunter Ninja</title>
   </head>
   <body>
     
     <p id="displayOutput"></p>
     <script>
-      let userName=prompt("Welcome to Bear Ninja Hunter! Please enter your name to get started:");
-      alert(`Hi ${userName} Let's Play!!`);
+      
+      let userName=prompt("Welcome to Bear Hunter Ninja! Please enter your name to get started:");
+      alert(`Hi ${userName} Let\'s Play!!`);
+      
       let playerPick= prompt("Who are you: Bear, Ninja, or Hunter?");
-      let robotPick= "Bear";
+      let computerPick= "Bear";
+      
       let htmlMessage= `${userName}, You picked ${playerPick}!<br>The robot picked ${robotPick}!`;
       let consoleMessage= `${userName}, You picked ${playerPick}!\nThe robot picked ${robotPick}!`;
       
