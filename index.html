@@ -11,13 +11,13 @@
     
     <p id="displayOutput"></p>
     <script>
-      
+      // Ask for user name and greet them
       let userName=prompt("Welcome to Bear Hunter Ninja! Please enter your name to get started:");
       alert(`Hi ${userName} Let\'s Play!!`);
-      
+      // Let player choose their pick
       let playerPick= prompt("Who are you: Bear, Ninja, or Hunter?");
       let computerPick= "Bear";
-      
+      // Outputting the results to the paragraph element and writing to the console.
       let htmlMessage= `${userName}, You picked ${playerPick}!<br>The robot picked ${robotPick}!`;
       let consoleMessage= `${userName}, You picked ${playerPick}!\nThe robot picked ${robotPick}!`;
       
